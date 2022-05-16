@@ -1,0 +1,23 @@
+.list {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.077);
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  width: 80vw;
+}
+
+@media (max-width: 900px) {
+  .list {
+    width: 100%;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .list {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

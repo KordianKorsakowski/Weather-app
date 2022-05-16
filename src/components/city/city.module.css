@@ -1,0 +1,104 @@
+.container {
+  background-color: transparent;
+  width: 80vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem;
+  color: #fff;
+}
+.containerSmall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+.weather {
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  text-transform: lowercase;
+  font-weight: 200;
+}
+.description {
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  text-transform: lowercase;
+  font-weight: 300;
+}
+.temp {
+  font-size: 6rem;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+.pressure {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.icon {
+  height: 12rem;
+}
+.suntime {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.sunContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 650px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  .weather {
+    font-size: 1.5rem;
+  }
+
+  .temp {
+    font-size: 4rem;
+  }
+  .pressure {
+    font-size: 1.5rem;
+  }
+  .icon {
+    font-size: 4rem;
+  }
+  .suntime {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    padding: 0;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .weather {
+    font-size: 1.5rem;
+  }
+
+  .temp {
+    font-size: 4rem;
+  }
+  .pressure {
+    font-size: 1.5rem;
+  }
+  .icon {
+    height: 9rem;
+  }
+  .suntime {
+    font-size: 1.5rem;
+  }
+}

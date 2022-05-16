@@ -1,0 +1,63 @@
+.container {
+  background-color: rgba(240, 248, 255, 0.755);
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.logo {
+  font-size: 6rem;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: 400;
+}
+.samllContainer {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.samllContainer a {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.samllContainer a:hover,
+.samllContainer a:active,
+.samllContainer p.active {
+  color: #000;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 1rem;
+  }
+  .logo {
+    font-size: 4rem;
+  }
+  .samllContainer {
+    gap: 1rem;
+  }
+  .samllContainer a {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    flex-direction: column;
+    height: max-content;
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+  .samllContainer {
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

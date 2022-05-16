@@ -1,0 +1,31 @@
+.search {
+  font-size: 3rem;
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 300;
+}
+.search input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid rgb(138, 138, 138);
+  width: 20rem;
+  max-width: 100%;
+  color: cadetblue;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+@media (max-width: 700px) {
+  .btn {
+    font-size: 2rem;
+  }
+  .search {
+    font-size: 2rem;
+  }
+}
